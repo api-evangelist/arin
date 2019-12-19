@@ -1,0 +1,67 @@
+{
+    "id": "bdb1bb2d2966cb5fa711f7879d9f6b26",
+    "name": "Reverse DNS API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "816b049179d8af32a5ba6bf86558294b",
+            "name": "Reverse DNS",
+            "url": "\/rdns",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "delegation name",
+                    "description": "the name of the delegation",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdb1bb2d2966cb5fa711f7879d9f6b26",
+            "rawModeData": ""
+        },
+        {
+            "id": "48accc451449f3fd5af1cc606827c56c",
+            "name": "List Nets",
+            "url": "\/rdns\/nets",
+            "description": "lists networks related to a give delegation.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdb1bb2d2966cb5fa711f7879d9f6b26",
+            "rawModeData": ""
+        }
+    ]
+}
