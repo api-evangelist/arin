@@ -1,0 +1,41 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Autonomous System Numbers (ASNs) API",
+        "description": "For managing Autonomous System Numbers (ASNs).",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/asn": {
+            "get": {
+                "summary": "Autonomous System Number(s)",
+                "description": "",
+                "operationId": "Asn",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "handle",
+                        "in": "query",
+                        "description": "the handle of the ASN"
+                    }
+                ]
+            }
+        },
+        "\/asn\/pocs": {
+            "get": {
+                "summary": "List POCs",
+                "description": "lists the POCs associated with a given ASN.",
+                "operationId": "AsnPocs",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
