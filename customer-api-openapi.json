@@ -1,0 +1,37 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0",
+        "title": "Customer API",
+        "description": "For managing customers",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpswhois.arin.net\/rest"
+    ],
+    "paths": {
+        "\/customers": {
+            "get": {
+                "summary": "Manage customers",
+                "description": "",
+                "operationId": "Customers",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "handle",
+                        "in": "query",
+                        "description": "the handle of the customer"
+                    },
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "description": "the name of the customer"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
