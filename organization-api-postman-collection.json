@@ -1,0 +1,127 @@
+{
+    "id": "e45c4e86fa4a8ef30d8a34a0c3544a7f",
+    "name": "Organization API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "89f542932c241f166600ef815f6d0595",
+            "name": "Manages organizations",
+            "url": "\/orgs",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "handle",
+                    "description": "the handle of the organization",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "the name of organization",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "dba",
+                    "description": "the name the organization does business as",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e45c4e86fa4a8ef30d8a34a0c3544a7f",
+            "rawModeData": ""
+        },
+        {
+            "id": "a239683c02c19c96f2e684d6a03a4f89",
+            "name": "List POCs",
+            "url": "\/org\/pocs",
+            "description": "lists the POCs associate with a given organization.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e45c4e86fa4a8ef30d8a34a0c3544a7f",
+            "rawModeData": ""
+        },
+        {
+            "id": "a57fb09cf5387e0ec816f1039f4e108b",
+            "name": "List ASNS",
+            "url": "\/org\/asns",
+            "description": " lists the ASNs associated with a given organization.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e45c4e86fa4a8ef30d8a34a0c3544a7f",
+            "rawModeData": ""
+        },
+        {
+            "id": "b2fb8532281cada4a73b874663e47e53",
+            "name": "List Nets",
+            "url": "\/org\/nets",
+            "description": "lists the networks associated with a given organization.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e45c4e86fa4a8ef30d8a34a0c3544a7f",
+            "rawModeData": ""
+        }
+    ]
+}
