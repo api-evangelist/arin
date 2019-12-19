@@ -1,0 +1,69 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Organization API",
+        "description": "For managing organizations.",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/orgs": {
+            "get": {
+                "summary": "Manages organizations",
+                "description": "",
+                "operationId": "Organizations",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "handle",
+                        "in": "query",
+                        "description": "the handle of the organization"
+                    },
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "description": "the name of organization"
+                    },
+                    {
+                        "name": "dba",
+                        "in": "query",
+                        "description": "the name the organization does business as"
+                    }
+                ]
+            }
+        },
+        "\/org\/pocs": {
+            "get": {
+                "summary": "List POCs",
+                "description": "lists the POCs associate with a given organization.",
+                "operationId": "OrgPocs",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/org\/asns": {
+            "get": {
+                "summary": "List ASNS",
+                "description": " lists the ASNs associated with a given organization.",
+                "operationId": "OrgAsns",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/org\/nets": {
+            "get": {
+                "summary": "List Nets",
+                "description": "lists the networks associated with a given organization.",
+                "operationId": "OrgNets",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
