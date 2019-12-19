@@ -1,0 +1,41 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Reverse DNS API",
+        "description": "For managing reverse DNS.",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/rdns": {
+            "get": {
+                "summary": "Reverse DNS",
+                "description": "",
+                "operationId": "Rdns",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "delegation name",
+                        "in": "query",
+                        "description": "the name of the delegation"
+                    }
+                ]
+            }
+        },
+        "\/rdns\/nets": {
+            "get": {
+                "summary": "List Nets",
+                "description": "lists networks related to a give delegation.",
+                "operationId": "RdnsNets",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
