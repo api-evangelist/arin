@@ -1,0 +1,155 @@
+{
+    "id": "daf1b4dfacb4c7ed1ed56babea5aa1ac",
+    "name": "Point of Contact (POC) API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "31c0a93ade36039b4c2da0b820bf5b08",
+            "name": "Point of Contact (POC)",
+            "url": "\/poc",
+            "description": "lists the Point of Contact (POC)",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "handle",
+                    "description": "the handle of the POC",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "domain",
+                    "description": "the domain of the email address for the POC",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "first",
+                    "description": "the first name of the POC",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "middle",
+                    "description": "the middle name of the POC",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "last",
+                    "description": "the last name of the POC",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "company",
+                    "description": "the company name registered by the POC",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "city",
+                    "description": "the city registered by the POC",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "daf1b4dfacb4c7ed1ed56babea5aa1ac",
+            "rawModeData": ""
+        },
+        {
+            "id": "85488cd0309ccf6b2b584907ab3676b2",
+            "name": "Organizations",
+            "url": "\/poc\/org",
+            "description": "lists the organizations associated with a given POC.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "daf1b4dfacb4c7ed1ed56babea5aa1ac",
+            "rawModeData": ""
+        },
+        {
+            "id": "3fcf0c8a29ad9c337e01cf476f8e78c7",
+            "name": "ASNs",
+            "url": "\/poc\/asns",
+            "description": "lists the ASNs associated with a given POC.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "daf1b4dfacb4c7ed1ed56babea5aa1ac",
+            "rawModeData": ""
+        },
+        {
+            "id": "c66054850d846f5900e90d793dcd9aa5",
+            "name": "Nets",
+            "url": "\/poc\/nets",
+            "description": "lists the networks associated with a given POC.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "daf1b4dfacb4c7ed1ed56babea5aa1ac",
+            "rawModeData": ""
+        }
+    ]
+}
