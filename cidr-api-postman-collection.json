@@ -1,0 +1,36 @@
+{
+    "id": "c07cbe3ab290ade713873cab67d1f822",
+    "name": "CIDR API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "0d9ab93254ab040d29a0b068d07e5ec0",
+            "name": "IP and CIDR Queries",
+            "url": "cidr\/",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c07cbe3ab290ade713873cab67d1f822",
+            "rawModeData": ""
+        }
+    ]
+}
