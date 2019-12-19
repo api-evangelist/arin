@@ -1,0 +1,105 @@
+{
+    "id": "12d3efd0acfcb46695cc206718986edd",
+    "name": "Delegation API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "195d6a0995c4f62b0499b49ea105d35f",
+            "name": "Get Delegation",
+            "url": "httpswww.arin.net\/regrws\/core\/v1\/delegation",
+            "description": "This call will return a payload containing details about the Delegation specified in your URL.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "12d3efd0acfcb46695cc206718986edd",
+            "rawModeData": ""
+        },
+        {
+            "id": "2b316390b4f23ae13eb8e32e5741855a",
+            "name": "Update Delegation",
+            "url": "httpswww.arin.net\/regrws\/core\/v1\/delegation",
+            "description": "This call will modify the details of the Delegation specified in your URL. When making this call, attach a Delegation Payload containing the details of the Delegation you intend to modify. To ensure accuracy, use Get Delegation to get the most current information before making changes. This call returns a payload containing that Delegation's information as it exists after modification.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "12d3efd0acfcb46695cc206718986edd",
+            "rawModeData": ""
+        },
+        {
+            "id": "11119683fb7ecb3eed18ac5364e22157",
+            "name": "Add Delegation",
+            "url": "httpswww.arin.net\/regrws\/core\/v1\/delegation",
+            "description": "This call will add the single nameserver specified in your URL to the Delegation specified in your URL, and return a payload containing that Delegation's information after the nameserver has been added.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "12d3efd0acfcb46695cc206718986edd",
+            "rawModeData": ""
+        },
+        {
+            "id": "7ec75c193a4a922cb0d6c119d99f973e",
+            "name": "Delete Delegation",
+            "url": "httpswww.arin.net\/regrws\/core\/v1\/delegation",
+            "description": "This call will delete the single nameserver specified in your URL from the Delegation specified in your URL, and return a payload containing that Delegation's information after the nameserver has been deleted.  If Reg-RWS returns an error code and\/or Error Payload to you when performing this call, refer to the Error Codes section.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "12d3efd0acfcb46695cc206718986edd",
+            "rawModeData": ""
+        }
+    ]
+}
