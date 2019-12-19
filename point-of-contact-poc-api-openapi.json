@@ -1,0 +1,89 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Point of Contact (POC) API",
+        "description": "For managing Point of Contact (POC).",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "\/poc": {
+            "get": {
+                "summary": "Point of Contact (POC)",
+                "description": "lists the Point of Contact (POC)",
+                "operationId": "Poc",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "handle",
+                        "in": "query",
+                        "description": "the handle of the POC"
+                    },
+                    {
+                        "name": "domain",
+                        "in": "query",
+                        "description": "the domain of the email address for the POC"
+                    },
+                    {
+                        "name": "first",
+                        "in": "query",
+                        "description": "the first name of the POC"
+                    },
+                    {
+                        "name": "middle",
+                        "in": "query",
+                        "description": "the middle name of the POC"
+                    },
+                    {
+                        "name": "last",
+                        "in": "query",
+                        "description": "the last name of the POC"
+                    },
+                    {
+                        "name": "company",
+                        "in": "query",
+                        "description": "the company name registered by the POC"
+                    },
+                    {
+                        "name": "city",
+                        "in": "query",
+                        "description": "the city registered by the POC"
+                    }
+                ]
+            }
+        },
+        "\/poc\/org": {
+            "get": {
+                "summary": "Organizations",
+                "description": "lists the organizations associated with a given POC.",
+                "operationId": "PocOrg",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/poc\/asns": {
+            "get": {
+                "summary": "ASNs",
+                "description": "lists the ASNs associated with a given POC.",
+                "operationId": "PocAsns",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/poc\/nets": {
+            "get": {
+                "summary": "Nets",
+                "description": "lists the networks associated with a given POC.",
+                "operationId": "PocNets",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
