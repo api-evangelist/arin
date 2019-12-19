@@ -1,0 +1,67 @@
+{
+    "id": "1d887b67df5510daf7af82a83a3b8107",
+    "name": "Autonomous System Numbers (ASNs) API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "ad3a0eb53eb3d98f262f8f91f2015468",
+            "name": "Autonomous System Number(s)",
+            "url": "\/asn",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "handle",
+                    "description": "the handle of the ASN",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1d887b67df5510daf7af82a83a3b8107",
+            "rawModeData": ""
+        },
+        {
+            "id": "f2a493f3fc036f70891d9feec9409396",
+            "name": "List POCs",
+            "url": "\/asn\/pocs",
+            "description": "lists the POCs associated with a given ASN.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1d887b67df5510daf7af82a83a3b8107",
+            "rawModeData": ""
+        }
+    ]
+}
