@@ -1,0 +1,26 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "CIDR API",
+        "description": "Managing IP Address and CIDR details.",
+        "termsOfService": ""
+    },
+    "servers": [
+        ""
+    ],
+    "paths": {
+        "cidr\/": {
+            "get": {
+                "summary": "IP and CIDR Queries",
+                "description": "",
+                "operationId": "Cidr",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
