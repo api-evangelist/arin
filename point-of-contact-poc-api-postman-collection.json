@@ -1,5 +1,5 @@
 {
-    "id": "daf1b4dfacb4c7ed1ed56babea5aa1ac",
+    "id": "e911c63d4491c8c1c074028a8bc08eda",
     "name": "Point of Contact (POC) API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "31c0a93ade36039b4c2da0b820bf5b08",
+            "id": "ef5a691ed1ccd9af5e717e5c39684694",
             "name": "Point of Contact (POC)",
             "url": "\/poc",
             "description": "lists the Point of Contact (POC)",
@@ -79,11 +79,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "daf1b4dfacb4c7ed1ed56babea5aa1ac",
+            "collectionId": "e911c63d4491c8c1c074028a8bc08eda",
             "rawModeData": ""
         },
         {
-            "id": "85488cd0309ccf6b2b584907ab3676b2",
+            "id": "3372dc6a40d8104b81c8b7619a6af3fb",
             "name": "Organizations",
             "url": "\/poc\/org",
             "description": "lists the organizations associated with a given POC.",
@@ -102,11 +102,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "daf1b4dfacb4c7ed1ed56babea5aa1ac",
+            "collectionId": "e911c63d4491c8c1c074028a8bc08eda",
             "rawModeData": ""
         },
         {
-            "id": "3fcf0c8a29ad9c337e01cf476f8e78c7",
+            "id": "7b1bd37468992857bacfc9beed70cc4c",
             "name": "ASNs",
             "url": "\/poc\/asns",
             "description": "lists the ASNs associated with a given POC.",
@@ -125,11 +125,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "daf1b4dfacb4c7ed1ed56babea5aa1ac",
+            "collectionId": "e911c63d4491c8c1c074028a8bc08eda",
             "rawModeData": ""
         },
         {
-            "id": "c66054850d846f5900e90d793dcd9aa5",
+            "id": "ce1b4a649ca3dcfd365ea41af8b62ee3",
             "name": "Nets",
             "url": "\/poc\/nets",
             "description": "lists the networks associated with a given POC.",
@@ -148,7 +148,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "daf1b4dfacb4c7ed1ed56babea5aa1ac",
+            "collectionId": "e911c63d4491c8c1c074028a8bc08eda",
             "rawModeData": ""
         }
     ]
