@@ -1,5 +1,5 @@
 {
-    "id": "1d887b67df5510daf7af82a83a3b8107",
+    "id": "cb2ad303ef6ac74d64cf2bd04424e260",
     "name": "Autonomous System Numbers (ASNs) API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "ad3a0eb53eb3d98f262f8f91f2015468",
+            "id": "ddef8066025a06eaa8984651e1f2c749",
             "name": "Autonomous System Number(s)",
             "url": "\/asn",
             "description": "",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1d887b67df5510daf7af82a83a3b8107",
+            "collectionId": "cb2ad303ef6ac74d64cf2bd04424e260",
             "rawModeData": ""
         },
         {
-            "id": "f2a493f3fc036f70891d9feec9409396",
+            "id": "237137e1f98e2c6a49b605982b67a220",
             "name": "List POCs",
             "url": "\/asn\/pocs",
             "description": "lists the POCs associated with a given ASN.",
@@ -60,7 +60,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1d887b67df5510daf7af82a83a3b8107",
+            "collectionId": "cb2ad303ef6ac74d64cf2bd04424e260",
             "rawModeData": ""
         }
     ]
