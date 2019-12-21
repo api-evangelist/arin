@@ -1,5 +1,5 @@
 {
-    "id": "bdb1bb2d2966cb5fa711f7879d9f6b26",
+    "id": "5838c2d6b6f68b5b192cb14506e425d6",
     "name": "Reverse DNS API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "816b049179d8af32a5ba6bf86558294b",
+            "id": "a6c125a852dbc1fd5150a367ebc0bc80",
             "name": "Reverse DNS",
             "url": "\/rdns",
             "description": "",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdb1bb2d2966cb5fa711f7879d9f6b26",
+            "collectionId": "5838c2d6b6f68b5b192cb14506e425d6",
             "rawModeData": ""
         },
         {
-            "id": "48accc451449f3fd5af1cc606827c56c",
+            "id": "45e2417786c34705ee69a887bf640ab8",
             "name": "List Nets",
             "url": "\/rdns\/nets",
             "description": "lists networks related to a give delegation.",
@@ -60,7 +60,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdb1bb2d2966cb5fa711f7879d9f6b26",
+            "collectionId": "5838c2d6b6f68b5b192cb14506e425d6",
             "rawModeData": ""
         }
     ]
