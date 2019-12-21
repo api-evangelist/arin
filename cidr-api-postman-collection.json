@@ -1,5 +1,5 @@
 {
-    "id": "c07cbe3ab290ade713873cab67d1f822",
+    "id": "91b368f43a740dbe4358c8a16989c23a",
     "name": "CIDR API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "0d9ab93254ab040d29a0b068d07e5ec0",
+            "id": "efaeb2df36cac38e3578a9a9c030852b",
             "name": "IP and CIDR Queries",
             "url": "cidr\/",
             "description": "",
@@ -29,7 +29,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c07cbe3ab290ade713873cab67d1f822",
+            "collectionId": "91b368f43a740dbe4358c8a16989c23a",
             "rawModeData": ""
         }
     ]
