@@ -1,5 +1,5 @@
 {
-    "id": "3f65c47494d03a4b310efa15f6e0e497",
+    "id": "c4ce3b5726d4071b7e15a6712754ee0f",
     "name": "Customer API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "aabbfcbd6a36dfe2c9026c82c7da525e",
+            "id": "4d7d4d1ce5fdfdaf25a128c9047a512d",
             "name": "Manage customers",
             "url": "httpswhois.arin.net\/rest\/customers",
             "description": "",
@@ -44,7 +44,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3f65c47494d03a4b310efa15f6e0e497",
+            "collectionId": "c4ce3b5726d4071b7e15a6712754ee0f",
             "rawModeData": ""
         }
     ]
