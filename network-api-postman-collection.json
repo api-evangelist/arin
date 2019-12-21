@@ -1,5 +1,5 @@
 {
-    "id": "a9e82b594e2b17821521043f4f8302ae",
+    "id": "65231d8f5fa0a5da72342d0d4c966a83",
     "name": "Network API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "c1e7e821095d72278f66936cc5c88d84",
+            "id": "f3bae8596d8f86e1c99c0e559407da3e",
             "name": "Networks",
             "url": "\/nets",
             "description": "",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a9e82b594e2b17821521043f4f8302ae",
+            "collectionId": "65231d8f5fa0a5da72342d0d4c966a83",
             "rawModeData": ""
         },
         {
-            "id": "357dec5ef524bb53d6c3bbf5d1bfd06d",
+            "id": "338c1db4edd98237ccfb362475524252",
             "name": "List POCs",
             "url": "\/net\/pocs",
             "description": "lists the POCs associated with a given network.",
@@ -67,11 +67,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a9e82b594e2b17821521043f4f8302ae",
+            "collectionId": "65231d8f5fa0a5da72342d0d4c966a83",
             "rawModeData": ""
         },
         {
-            "id": "963de024858fa52492e73f8a480781ce",
+            "id": "5ce879a6e084654cb02b66f32f5bcc0e",
             "name": "List Partent",
             "url": "\/net\/parent",
             "description": "lists the parent network of a given network.",
@@ -90,11 +90,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a9e82b594e2b17821521043f4f8302ae",
+            "collectionId": "65231d8f5fa0a5da72342d0d4c966a83",
             "rawModeData": ""
         },
         {
-            "id": "cea58b0ad6f6a4b7abbb69ce229969d7",
+            "id": "55dc6f811a953c9a27c3114d9a5e6dd3",
             "name": "List Children",
             "url": "\/net\/children",
             "description": " lists the child networks of a given network.",
@@ -113,11 +113,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a9e82b594e2b17821521043f4f8302ae",
+            "collectionId": "65231d8f5fa0a5da72342d0d4c966a83",
             "rawModeData": ""
         },
         {
-            "id": "8ed7fd77b3d6d7bdd62bf5d82ec8d67d",
+            "id": "342f58157f5978264a0e8ef02503c4c1",
             "name": "List RDNS",
             "url": "\/net\/rdns",
             "description": "lists the delegations of a given network.",
@@ -136,7 +136,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a9e82b594e2b17821521043f4f8302ae",
+            "collectionId": "65231d8f5fa0a5da72342d0d4c966a83",
             "rawModeData": ""
         }
     ]
