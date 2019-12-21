@@ -1,5 +1,5 @@
 {
-    "id": "e45c4e86fa4a8ef30d8a34a0c3544a7f",
+    "id": "fa46b7392980fcb04fb253d7d436b42e",
     "name": "Organization API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "89f542932c241f166600ef815f6d0595",
+            "id": "796572f76695aea56362519e9cead50b",
             "name": "Manages organizations",
             "url": "\/orgs",
             "description": "",
@@ -51,11 +51,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e45c4e86fa4a8ef30d8a34a0c3544a7f",
+            "collectionId": "fa46b7392980fcb04fb253d7d436b42e",
             "rawModeData": ""
         },
         {
-            "id": "a239683c02c19c96f2e684d6a03a4f89",
+            "id": "40377f284ade292a1ea65faf2d02a6e2",
             "name": "List POCs",
             "url": "\/org\/pocs",
             "description": "lists the POCs associate with a given organization.",
@@ -74,11 +74,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e45c4e86fa4a8ef30d8a34a0c3544a7f",
+            "collectionId": "fa46b7392980fcb04fb253d7d436b42e",
             "rawModeData": ""
         },
         {
-            "id": "a57fb09cf5387e0ec816f1039f4e108b",
+            "id": "847a36a9692bbe47d8e8bb12ba160cd8",
             "name": "List ASNS",
             "url": "\/org\/asns",
             "description": " lists the ASNs associated with a given organization.",
@@ -97,11 +97,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e45c4e86fa4a8ef30d8a34a0c3544a7f",
+            "collectionId": "fa46b7392980fcb04fb253d7d436b42e",
             "rawModeData": ""
         },
         {
-            "id": "b2fb8532281cada4a73b874663e47e53",
+            "id": "f26f3ff2cdbaeef2dae7819d5baf228d",
             "name": "List Nets",
             "url": "\/org\/nets",
             "description": "lists the networks associated with a given organization.",
@@ -120,7 +120,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e45c4e86fa4a8ef30d8a34a0c3544a7f",
+            "collectionId": "fa46b7392980fcb04fb253d7d436b42e",
             "rawModeData": ""
         }
     ]
