@@ -1,5 +1,5 @@
 {
-    "id": "12d3efd0acfcb46695cc206718986edd",
+    "id": "115031f8c5b55523ac7fa9fb37c0e808",
     "name": "Delegation API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "195d6a0995c4f62b0499b49ea105d35f",
+            "id": "ab3e39fc70f18a2af1e0d4f0a30809b5",
             "name": "Get Delegation",
             "url": "httpswww.arin.net\/regrws\/core\/v1\/delegation",
             "description": "This call will return a payload containing details about the Delegation specified in your URL.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "12d3efd0acfcb46695cc206718986edd",
+            "collectionId": "115031f8c5b55523ac7fa9fb37c0e808",
             "rawModeData": ""
         },
         {
-            "id": "2b316390b4f23ae13eb8e32e5741855a",
+            "id": "96e3deb7d66a88e2cc5a09b56b16bcef",
             "name": "Update Delegation",
             "url": "httpswww.arin.net\/regrws\/core\/v1\/delegation",
             "description": "This call will modify the details of the Delegation specified in your URL. When making this call, attach a Delegation Payload containing the details of the Delegation you intend to modify. To ensure accuracy, use Get Delegation to get the most current information before making changes. This call returns a payload containing that Delegation's information as it exists after modification.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "12d3efd0acfcb46695cc206718986edd",
+            "collectionId": "115031f8c5b55523ac7fa9fb37c0e808",
             "rawModeData": ""
         },
         {
-            "id": "11119683fb7ecb3eed18ac5364e22157",
+            "id": "5dbe2a96024a8823a4e4b52b381baf4f",
             "name": "Add Delegation",
             "url": "httpswww.arin.net\/regrws\/core\/v1\/delegation",
             "description": "This call will add the single nameserver specified in your URL to the Delegation specified in your URL, and return a payload containing that Delegation's information after the nameserver has been added.",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "12d3efd0acfcb46695cc206718986edd",
+            "collectionId": "115031f8c5b55523ac7fa9fb37c0e808",
             "rawModeData": ""
         },
         {
-            "id": "7ec75c193a4a922cb0d6c119d99f973e",
+            "id": "92c3b60d667df3f3fcc16dc9af44dbb3",
             "name": "Delete Delegation",
             "url": "httpswww.arin.net\/regrws\/core\/v1\/delegation",
             "description": "This call will delete the single nameserver specified in your URL from the Delegation specified in your URL, and return a payload containing that Delegation's information after the nameserver has been deleted.  If Reg-RWS returns an error code and\/or Error Payload to you when performing this call, refer to the Error Codes section.",
@@ -98,7 +98,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "12d3efd0acfcb46695cc206718986edd",
+            "collectionId": "115031f8c5b55523ac7fa9fb37c0e808",
             "rawModeData": ""
         }
     ]
